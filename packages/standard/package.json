@@ -16,7 +16,7 @@
     "gulp-uglify-es": "^2.0.0",
     "gulp-util": "^3.0.8",
     "imagesloaded": "^4.1.4",
-    "jquery": "^2.2.4",
+    "jquery": "^3.5.0",
     "merge2": "^1.0.3",
     "sticky-sidebar": "^3.3.1"
   },
