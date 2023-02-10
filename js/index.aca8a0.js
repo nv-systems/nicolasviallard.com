@@ -6,19 +6,22 @@ var lwi=-1;function thresholdPassed(){var w=$(window).width();var p=false;var cw
 
 $(function(){
 r=function(){if(thresholdPassed()){dpi=window.devicePixelRatio;if($(window).width()>=1920){var e=document.querySelector('.un1');e.setAttribute('src',(dpi>1)?'images/18-connecteur_autoradio-1178.jpg':'images/18-connecteur_autoradio-589.jpg');
-var e=document.querySelector('.un3');e.setAttribute('src','images/image-collee-634-1.png');}else if($(window).width()>=1200){var e=document.querySelector('.un1');e.setAttribute('src',(dpi>1)?'images/18-connecteur_autoradio-736.jpg':'images/18-connecteur_autoradio-368.jpg');
-var e=document.querySelector('.un3');e.setAttribute('src',(dpi>1)?'images/image-collee-792.png':'images/image-collee-396.png');}else if($(window).width()>=960){var e=document.querySelector('.un1');e.setAttribute('src',(dpi>1)?'images/18-connecteur_autoradio-588.jpg':'images/18-connecteur_autoradio-294-1.jpg');
-var e=document.querySelector('.un3');e.setAttribute('src',(dpi>1)?'images/image-collee-634.png':'images/image-collee-317.png');}else if($(window).width()>=768){var e=document.querySelector('.un1');e.setAttribute('src',(dpi>1)?'images/18-connecteur_autoradio-470.jpg':'images/18-connecteur_autoradio-235.jpg');
-var e=document.querySelector('.un3');e.setAttribute('src',(dpi>1)?'images/image-collee-508.png':'images/image-collee-254.png');}else if($(window).width()>=480){var e=document.querySelector('.un1');e.setAttribute('src',(dpi>1)?'images/18-connecteur_autoradio-294.jpg':'images/18-connecteur_autoradio-147.jpg');
-var e=document.querySelector('.un3');e.setAttribute('src',(dpi>1)?'images/image-collee-318.png':'images/image-collee-159.png');}else{var e=document.querySelector('.un1');e.setAttribute('src',(dpi>1)?'images/18-connecteur_autoradio-342.jpg':'images/18-connecteur_autoradio-171.jpg');
-var e=document.querySelector('.un3');e.setAttribute('src',(dpi>1)?'images/image-collee-212.png':'images/image-collee-106.png');}}};
+var e=document.querySelector('.un4');e.setAttribute('src','images/image-collee-634-1.png');}else if($(window).width()>=1200){var e=document.querySelector('.un1');e.setAttribute('src',(dpi>1)?'images/18-connecteur_autoradio-736.jpg':'images/18-connecteur_autoradio-368.jpg');
+var e=document.querySelector('.un4');e.setAttribute('src',(dpi>1)?'images/image-collee-792.png':'images/image-collee-396.png');}else if($(window).width()>=960){var e=document.querySelector('.un1');e.setAttribute('src',(dpi>1)?'images/18-connecteur_autoradio-588.jpg':'images/18-connecteur_autoradio-294-1.jpg');
+var e=document.querySelector('.un4');e.setAttribute('src',(dpi>1)?'images/image-collee-634.png':'images/image-collee-317.png');}else if($(window).width()>=768){var e=document.querySelector('.un1');e.setAttribute('src',(dpi>1)?'images/18-connecteur_autoradio-470.jpg':'images/18-connecteur_autoradio-235.jpg');
+var e=document.querySelector('.un4');e.setAttribute('src',(dpi>1)?'images/image-collee-508.png':'images/image-collee-254.png');}else if($(window).width()>=480){var e=document.querySelector('.un1');e.setAttribute('src',(dpi>1)?'images/18-connecteur_autoradio-294.jpg':'images/18-connecteur_autoradio-147.jpg');
+var e=document.querySelector('.un4');e.setAttribute('src',(dpi>1)?'images/image-collee-318.png':'images/image-collee-159.png');}else{var e=document.querySelector('.un1');e.setAttribute('src',(dpi>1)?'images/18-connecteur_autoradio-342.jpg':'images/18-connecteur_autoradio-171.jpg');
+var e=document.querySelector('.un4');e.setAttribute('src',(dpi>1)?'images/image-collee-212.png':'images/image-collee-106.png');}}};
 if(!window.HTMLPictureElement){$(window).resize(r);r();}
 !function(){var e=document.querySelectorAll('a[href^="#"]');[].forEach.call(e,function(e){e.addEventListener("click",function(t){var o=0;if(e.hash.length>1){var n=parseFloat(getComputedStyle(document.body).getPropertyValue("zoom"));n||(n=1);var r=document.querySelectorAll('[name="'+e.hash.slice(1)+'"]')[0];if(!r)return;var l=/chrome/i.test(navigator.userAgent);o=l?r.getBoundingClientRect().top*n+pageYOffset:(r.getBoundingClientRect().top+pageYOffset)*n}if("scrollBehavior"in document.documentElement.style)scroll({top:o,left:0,behavior:"smooth"});else if("requestAnimationFrame"in window){var a=pageYOffset,i=null;requestAnimationFrame(function e(t){i||(i=t);var n=t-i;scrollTo(0,a<o?(o-a)*n/400+a:a-(a-o)*n/400),n<400?requestAnimationFrame(e):scrollTo(0,o)})}else scrollTo(0,o);t.preventDefault()},!1)})}();
-$('.un19').mouseenter(function() { $.loadImages('images/18-connecteur_autoradio-3024.jpg', function() { }) });
-$('.un19').magnificPopup({ type: 'image', closeOnContentClick: true, closeBtnInside: false, mainClass: 'mfp-fade un19-lightbox mfp-no-margins mfp-with-zoom', image: { verticalFit: true }, zoom: { enabled: true, duration: 300 }, callbacks: { elementParse: function(item) { item.src = 'images/18-connecteur_autoradio-3024.jpg'; } } });
+$('.un25').mouseenter(function() { $.loadImages('images/18-connecteur_autoradio-3024.jpg', function() { }) });
+$('.un25').magnificPopup({ type: 'image', closeOnContentClick: true, closeBtnInside: false, mainClass: 'mfp-fade un25-lightbox mfp-no-margins mfp-with-zoom', image: { verticalFit: true }, zoom: { enabled: true, duration: 300 }, callbacks: { elementParse: function(item) { item.src = 'images/18-connecteur_autoradio-3024.jpg'; } } });
+$('.un26').mouseenter(function() { $.loadImages('images/image-collee-748.png', function() { }) });
+$('.un26').magnificPopup({ type: 'image', closeOnContentClick: true, closeBtnInside: false, mainClass: 'mfp-fade un26-lightbox mfp-no-margins mfp-with-zoom', image: { verticalFit: true }, zoom: { enabled: true, duration: 300 }, callbacks: { elementParse: function(item) { item.src = 'images/image-collee-748.png'; } } });
 wl=new woolite();
 wl.init();
-wl.addAnimation($('.un2'), "1.00s", "0.00s", 1, 100);
+wl.addManualAnimation($('.un2'), "0.30s", "0.00s");
+wl.addManualAnimation($('.un3'), "0.30s", "0.00s");
 wl.start();
 if(location.hash){var e=location.hash.replace("#",""),o=function(){var t=document.querySelectorAll('[name="'+e+'"]')[0];t&&t.scrollIntoView(),"0px"===window.getComputedStyle(document.body).getPropertyValue("min-width")&&setTimeout(o,100)};o()}
 
