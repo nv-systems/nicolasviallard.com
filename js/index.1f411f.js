@@ -146,6 +146,7 @@ $('.un271').mouseenter(function() { $.loadImages('images/resistance_floue-596.jp
 $('.un271').magnificPopup({ type: 'image', closeOnContentClick: true, closeBtnInside: false, mainClass: 'mfp-fade un271-lightbox mfp-no-margins mfp-with-zoom', image: { verticalFit: true }, zoom: { enabled: true, duration: 300 }, callbacks: { elementParse: function(item) { item.src = 'images/resistance_floue-596.jpg'; } } });
 $('.un273').mouseenter(function() { $.loadImages('images/vertebres-814.jpg', function() { }) });
 $('.un273').magnificPopup({ type: 'image', closeOnContentClick: true, closeBtnInside: false, mainClass: 'mfp-fade un273-lightbox mfp-no-margins mfp-with-zoom', image: { verticalFit: true }, zoom: { enabled: true, duration: 300 }, callbacks: { elementParse: function(item) { item.src = 'images/vertebres-814.jpg'; } } });
+$('.c17').Stickyfill();
 $('.un275').mouseenter(function() { $.loadImages('images/engrene_moi-363.jpg', function() { }) });
 $('.un275').magnificPopup({ type: 'image', closeOnContentClick: true, closeBtnInside: false, mainClass: 'mfp-fade un275-lightbox mfp-no-margins mfp-with-zoom', image: { verticalFit: true }, zoom: { enabled: true, duration: 300 }, callbacks: { elementParse: function(item) { item.src = 'images/engrene_moi-363.jpg'; } } });
 $('.un276').mouseenter(function() { $.loadImages('images/centrale_electrostatique-654.jpg', function() { }) });
