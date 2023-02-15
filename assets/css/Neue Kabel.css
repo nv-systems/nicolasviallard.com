@@ -1,0 +1,143 @@
+@font-face {
+	font-family: 'Neue Kabel';
+	src: url(../../assets/fonts/NeueKabel-Thin.woff2) format('woff2'),
+	url(../../assets/fonts/NeueKabel-Thin.woff) format('woff');
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Neue Kabel';
+	src: url(../../assets/fonts/NeueKabel-ThinItalic.woff2) format('woff2'),
+	url(../../assets/fonts/NeueKabel-ThinItalic.woff) format('woff');
+	font-weight: 100;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Neue Kabel';
+	src: url(../../assets/fonts/NeueKabel-ExtraLight.woff2) format('woff2'),
+	url(../../assets/fonts/NeueKabel-ExtraLight.woff) format('woff');
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Neue Kabel';
+	src: url(../../assets/fonts/NeueKabel-ExtraLightItalic.woff2) format('woff2'),
+	url(../../assets/fonts/NeueKabel-ExtraLightItalic.woff) format('woff');
+	font-weight: 200;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Neue Kabel';
+	src: url(../../assets/fonts/NeueKabel-Light.woff2) format('woff2'),
+	url(../../assets/fonts/NeueKabel-Light.woff) format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Neue Kabel';
+	src: url(../../assets/fonts/NeueKabel-LightItalic.woff2) format('woff2'),
+	url(../../assets/fonts/NeueKabel-LightItalic.woff) format('woff');
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Neue Kabel';
+	src: url(../../assets/fonts/NeueKabel-Regular.woff2) format('woff2'),
+	url(../../assets/fonts/NeueKabel-Regular.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Neue Kabel';
+	src: url(../../assets/fonts/NeueKabel-Italic.woff2) format('woff2'),
+	url(../../assets/fonts/NeueKabel-Italic.woff) format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Neue Kabel';
+	src: url(../../assets/fonts/NeueKabel-Medium.woff2) format('woff2'),
+	url(../../assets/fonts/NeueKabel-Medium.woff) format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Neue Kabel';
+	src: url(../../assets/fonts/NeueKabel-MediumItalic.woff2) format('woff2'),
+	url(../../assets/fonts/NeueKabel-MediumItalic.woff) format('woff');
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Neue Kabel';
+	src: url(../../assets/fonts/NeueKabel-Bold.woff2) format('woff2'),
+	url(../../assets/fonts/NeueKabel-Bold.woff) format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Neue Kabel';
+	src: url(../../assets/fonts/NeueKabel-ExtraBold.woff2) format('woff2'),
+	url(../../assets/fonts/NeueKabel-ExtraBold.woff) format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Neue Kabel';
+	src: url(../../assets/fonts/NeueKabel-ExtraBoldItalic.woff2) format('woff2'),
+	url(../../assets/fonts/NeueKabel-ExtraBoldItalic.woff) format('woff');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Neue Kabel';
+	src: url(../../assets/fonts/NeueKabel-BoldItalic.woff2) format('woff2'),
+	url(../../assets/fonts/NeueKabel-BoldItalic.woff) format('woff');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Neue Kabel';
+	src: url(../../assets/fonts/NeueKabel-Black.woff2) format('woff2'),
+	url(../../assets/fonts/NeueKabel-Black.woff) format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Neue Kabel';
+	src: url(../../assets/fonts/NeueKabel-BlackItalic.woff2) format('woff2'),
+	url(../../assets/fonts/NeueKabel-BlackItalic.woff) format('woff');
+	font-weight: 900;
+	font-style: italic;
+	font-display: swap;
+}
