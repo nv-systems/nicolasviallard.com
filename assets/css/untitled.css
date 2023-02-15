@@ -81,10 +81,10 @@ ul {
 }
 
 audio {
-  max-width: 90%;
+  max-width: 89%;
   height: 35vh;
   width: inherit;
-  margin-left: 5%;
+  margin-left: 15%;
   object-fit: contain;
 }
 
