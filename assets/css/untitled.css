@@ -21,7 +21,7 @@
 .carousel {
   position: relative;
   padding-bottom: 10%;
-  max-height: 80vh;
+  max-height: 70vh;
   width: 100%;
 }
 
@@ -41,18 +41,20 @@
 .carousel-inner img {
   margin: auto;
   max-width: 90%;
-  height: 80vh;
+  height: 70vh;
   object-fit: contain;
   /*padding-bottom: 20%;*/
 }
 
 .carousel-control-prev {
-  padding-right: 10%;
+  width: 10%;
+  padding-right: 5%;
   /*padding-bottom: 25%;*/
 }
 
 .carousel-control-next {
-  padding-left: 10%;
+  width: 10%;
+  padding-left: 5%;
   /*padding-bottom: 25%;*/
 }
 
