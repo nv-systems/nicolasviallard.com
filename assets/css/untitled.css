@@ -27,17 +27,14 @@
 
 .carousel-caption {
   position: initial;
-  /*margin-top: 5px;*/
   background: var(--bs-teal);
-  /*padding-top: 5px;*/
-  /*bottom: -35px;*/
-  padding-bottom: initial;
-  padding-top: 1%;
+  /*padding-bottom: inherit;*/
+  /*padding-top: 1%;*/
   font-family: 'Neue Kabel';
 }
 
 .carousel-inner {
-  height: 100vh;
+  /*height: 70vh;*/
 }
 
 .carousel-inner img {
@@ -72,5 +69,26 @@ h2 {
 
 .navbar-nav {
   font-family: 'Neue Kabel';
+}
+
+a {
+  color: #000000;
+  text-decoration: blink;
+}
+
+.menu {
+  margin-top: 20%;
+}
+
+ul {
+  list-style-type: "_";
+}
+
+audio {
+  max-width: 90%;
+  height: 35vh;
+  width: inherit;
+  margin-left: 5%;
+  object-fit: contain;
 }
 
