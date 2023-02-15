@@ -15,6 +15,7 @@
   .w-100 {
     width: 100%!important;
     max-width: none;
+    /*max-height: 30vh;*/
   }
 }
 
@@ -23,21 +24,26 @@
   padding-bottom: 10%;
   max-height: 70vh;
   width: 100%;
+  /*height: inherit;*/
 }
 
 .carousel-caption {
   position: initial;
-  background: var(--bs-teal);
+  /*z-index: 40;*/
+  display: block;
+  background: var(--bs-body-bg);
   /*padding-bottom: inherit;*/
   /*padding-top: 1%;*/
   font-family: 'Neue Kabel';
 }
 
 .carousel-inner {
-  /*height: 70vh;*/
+  height: initial;
+  /*position: absolute;*/
 }
 
 .carousel-inner img {
+  position: relative;
   margin: auto;
   max-width: 90%;
   height: 70vh;
@@ -61,12 +67,6 @@ h2 {
   font-family: 'Neue Kabel';
 }
 
-.Bio {
-  font-family: 'Neue Kabel';
-  margin-left: 5%;
-  margin-right: 35%;
-}
-
 .navbar-nav {
   font-family: 'Neue Kabel';
 }
@@ -77,7 +77,7 @@ a {
 }
 
 .menu {
-  margin-top: 20%;
+  margin-top: 35%;
 }
 
 ul {
@@ -90,5 +90,24 @@ audio {
   width: inherit;
   margin-left: 5%;
   object-fit: contain;
+}
+
+#carousel-1 {
+  /*height: 100%;*/
+}
+
+.titre {
+  font-style: italic;
+}
+
+h1 {
+  font-family: 'Neue Kabel';
+}
+
+p {
+  font-family: 'Neue Kabel';
+  font-size: larger;
+  margin-left: 10%;
+  margin-right: 30%;
 }
 
