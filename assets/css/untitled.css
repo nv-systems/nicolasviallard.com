@@ -31,6 +31,8 @@
   background: var(--bs-teal);
   /*padding-top: 5px;*/
   /*bottom: -35px;*/
+  padding-bottom: initial;
+  padding-top: 1%;
   font-family: 'Neue Kabel';
 }
 
@@ -56,5 +58,19 @@
   width: 10%;
   padding-left: 5%;
   /*padding-bottom: 25%;*/
+}
+
+h2 {
+  font-family: 'Neue Kabel';
+}
+
+.Bio {
+  font-family: 'Neue Kabel';
+  margin-left: 5%;
+  margin-right: 35%;
+}
+
+.navbar-nav {
+  font-family: 'Neue Kabel';
 }
 
