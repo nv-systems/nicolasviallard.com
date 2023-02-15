@@ -31,7 +31,7 @@
   position: initial;
   /*z-index: 40;*/
   display: block;
-  background: var(--bs-body-bg);
+  /*background: var(--bs-body-bg);*/
   /*padding-bottom: inherit;*/
   /*padding-top: 1%;*/
   font-family: 'Neue Kabel';
@@ -64,10 +64,6 @@
 }
 
 h2 {
-  font-family: 'Neue Kabel';
-}
-
-.navbar-nav {
   font-family: 'Neue Kabel';
 }
 
