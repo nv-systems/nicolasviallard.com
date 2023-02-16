@@ -74,7 +74,7 @@ a {
 }
 
 .menu {
-  /*margin-top: 55%;*/
+  margin-top: 20%;
 }
 
 ul {
@@ -101,10 +101,11 @@ h1 {
   font-family: 'Neue Kabel';
 }
 
-p {
+.bio {
   font-family: 'Neue Kabel';
   font-size: larger;
   margin-left: 10%;
   margin-right: 30%;
+  /*position: relative;*/
 }
 
