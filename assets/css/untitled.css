@@ -83,8 +83,8 @@ ul {
 
 audio {
   max-width: 94%;
-  height: 35vh;
-  width: inherit;
+  height: 12vh;
+  width: 88vh;
   margin-left: 15%;
   object-fit: contain;
 }
@@ -94,6 +94,7 @@ audio {
 }
 
 .titre {
+  text-align: center;
   font-style: italic;
 }
 
